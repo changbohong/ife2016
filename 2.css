@@ -1,0 +1,117 @@
+/*整体背景，颜色*/
+body{
+  margin: 0px;
+  background-color: #DEDEDE;
+  font-family: "微软雅黑";
+}
+/*title*/
+#title{
+  background-color: #333333;
+  width: 100%;
+  height: 60px;
+}
+/*LOGO*/
+#logo{
+  padding-left: 40px;
+  position: relative;
+  float: left;
+}
+/*link*/
+ul#link{
+  float: right;
+  line-height: 60px;
+}
+li.link{
+  font-size: 50%;
+  float: left;
+  margin: 0px 15px;
+  line-height: 60px;
+}
+a.link{color: white;line-height: 60px;}
+a#linkFour{color: #ABB1AF}
+/*一级块*/
+.block1{
+  background-color: white;
+  border-top: 1px solid #B0BFB9;
+  border-left: 1px solid #B0BFB9;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin: 20px 10px;
+  padding: 10px 20px;
+}
+/*副标题，颜色*/
+h3,.writer{color: grey}
+.writer{font-size: 80%}
+/*图片模块*/
+ul#blcok2{}
+li.block2{
+  list-style: none;
+  width: 200px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0px;
+}
+/*table*/
+#table{
+  width: 100%;
+}
+thead{
+  text-align: left;
+  background-color: #333333;
+}
+th{
+  font-size: 90%;
+  padding-left: 5px;
+  color: white;
+}
+td{
+  font-size: 90%;
+  padding: 5px 10px;
+  text-align: left;
+}
+tfoot{
+  background-color: #CCCCCC
+}
+tfoot td{
+  font-weight: bold;
+}
+/*侧栏*/
+.sideL{
+  position: relative;
+  float: left;
+  text-align: right;
+  margin-left: 25%;
+}
+/*把空行隔出来*/
+.sideL p{height: 21px;}
+.sideR{
+  float: right;
+  text-align: left;
+}
+.side{
+  padding-left: 250px;
+}
+textarea{
+  width: 800px;
+  height: 100px;
+}
+input#submit{
+  width: 100%;
+  background-color: #3355D0;
+  color: white;
+  height: 3em;
+  font-family: "微软雅黑";
+  border-radius: 10px;
+}
+/*footer*/
+footer{
+  background-color: #000;
+  text-align: center;
+  height: 60px;
+}
+#footer{
+  color: white;
+  line-height: 60px;
+  font-size: 50%;
+}
